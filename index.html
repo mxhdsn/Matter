@@ -41,7 +41,7 @@
             physics: {
                 default: 'matter',
                 matter: {
-                    debug: false,
+                    debug: true,
                     gravity: {
                         x: 0,
                         y: 1.5
@@ -61,7 +61,7 @@
                     }
                 ]
             },
-            scene: [SceneA, SceneB],
+            scene: [SceneB, SceneA],
         };
         let game = new Phaser.Game(config);
     </script>
